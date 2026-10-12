@@ -1,0 +1,70 @@
+body{
+    font-family: 'open Sans', sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 40px 0;
+}
+
+h1{
+    font-size:x-large;
+    line-height: 10px;
+    letter-spacing: 1px;
+}
+
+.form-container{
+    width: 500px;
+    margin: 0 auto;
+    padding: 28px;
+    border: 2px solid;
+    border-radius: 10%;
+}
+
+#full-name{
+    width: 100%;
+    display: block;
+}
+
+#email{
+    width: 100%;
+    display: block;
+}
+
+#experience-level{
+    width: 100%;
+    display: block;
+}
+
+#submit-button{
+    width: 100%;
+    display: block;
+}
+
+[type="submit"] {
+    background-color: blue;
+    color: white;
+}
+
+
+.Workshop-tracks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+
+
+input:focus{
+    border-color: blue;
+    outline: 12px;
+}
+
+select:focus{
+    border-color: blue;
+    outline: 12px;
+}
+
+button:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
